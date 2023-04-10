@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+     width: 100%;
+    background-color:rgb(119, 183, 223);
+}
+
+.container{
+   max-width: 40rem;
+    margin: 0 auto;
+}
+
+H1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    
+    color: aliceblue; 
+    animation: item 3s infinite;
+    animation-direction: alternate;
+    text-align: center;
+
+    
+    
+}
+
+
+
+@keyframes item{
+    0%{
+        color: white;
+        letter-spacing: 5px;
+
+    }
+
+    100%{
+        color: red;
+        letter-spacing: 2px;
+    }
+}
+
+ 
+
+.container .form{
+     background-color: white;
+     margin-top: 1rem;
+     display: flex;
+     align-items: center;
+     border-radius: 5px;
+}
+
+input{
+    flex:1;
+    padding: 0.7rem;
+    border: none;
+    background-color: transparent;
+    outline: none;
+   
+}
+
+.btn{
+    padding: 0.7rem;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.list .todo{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+}
+
+.todo span{
+    cursor: pointer;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     
+}
+
+ 
